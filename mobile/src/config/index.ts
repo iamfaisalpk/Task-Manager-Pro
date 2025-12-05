@@ -1,0 +1,8 @@
+import Constants from 'expo-constants';
+
+export const API_BASE_URL =
+  Constants?.expoConfig?.extra?.API_BASE_URL ||
+  process.env.API_BASE_URL ||
+  'http://localhost:5000/api';
+
+export const TOKEN_KEY = 'TASK_MANAGER_TOKEN';
