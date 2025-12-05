@@ -39,34 +39,7 @@ Web Frontend	ReactJS (Vite), Tailwind CSS, Axios, Redux, React Router v6
 Mobile App	React Native (Expo), AsyncStorage, React Navigation, NativeWind, Redux
 Dev Tools	VS Code, Git, Postman, MongoDB Compass
 Version Control	Git & GitHub
-Project Structure
-task-manager-pro/
- ├── backend/
- │    ├── config/       # DB configuration
- │    ├── controllers/  # Auth & Task controllers
- │    ├── routes/       # API routes
- │    ├── models/       # Mongoose models
- │    ├── middleware/   # Auth & error middleware
- │    ├── services/     # Business logic
- │    ├── utils/        # Helper functions & API errors
- │    ├── validation/   # Joi validation schemas
- │    └── server.js     # Express server entry
- ├── web/
- │    ├── src/
- │    │   ├── components/  # Reusable components (TaskCard, Modal, Button, Toast)
- │    │   ├── pages/       # Login, Register, Dashboard
- │    │   ├── services/    # Axios API calls
- │    │   ├── store/       # Redux store setup, slices
- │    │   ├── hooks/       # Custom hooks
- │    │   ├── utils/       # Constants, helpers, validation
- │    │   └── routes/      # createBrowserRouter setup
- ├── mobile/
- │    ├── src/
- │    │   ├── components/  # Reusable components
- │    │   ├── screens/     # Login, TaskList
- │    │   ├── services/    # Axios API calls
- │    │   └── navigation/  # Navigation stack
- └── README.md
+
 
 Installation & Setup
 Backend
